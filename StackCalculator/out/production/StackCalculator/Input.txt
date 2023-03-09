@@ -1,6 +1,0 @@
-PUSH 10
-SQRT
-DEFINE a 5
-PUSH a
-+
-PRINT
