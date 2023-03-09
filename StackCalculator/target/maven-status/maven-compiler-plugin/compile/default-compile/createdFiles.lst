@@ -1,0 +1,14 @@
+Commands\Command.class
+Commands\Print.class
+Annotation\Context.class
+Commands\Push.class
+Annotation\Inject.class
+Commands\Addition.class
+Commands\Multiplication.class
+Factory.class
+Main.class
+Commands\Define.class
+Commands\SquareRoot.class
+Commands\Subtraction.class
+Commands\Pop.class
+Commands\Division.class
