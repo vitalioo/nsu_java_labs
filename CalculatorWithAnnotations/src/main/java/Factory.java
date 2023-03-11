@@ -51,7 +51,7 @@ public abstract class Factory {
                     }
                 }
             }
-        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException ex) {
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | NullPointerException ex) {
             logger.error(ex);
             throw new IllegalStateException();
         }

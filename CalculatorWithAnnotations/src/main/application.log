@@ -1,0 +1,66 @@
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Push created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Push
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.SquareRoot created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.SquareRoot
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Define created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Define
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Push created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Push
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Multiplication created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Multiplication
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Push created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Push
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Subtraction created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Subtraction
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.SquareRoot created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.SquareRoot
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.SquareRoot created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.SquareRoot
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.SquareRoot created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.SquareRoot
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Push created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Push
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.SquareRoot created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.SquareRoot
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Pop created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Pop
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Pop created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Pop
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Pop created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Pop
+2023-03-11 21:06:42 ERROR [main]: Not enough arguments for pop
+2023-03-11 21:06:42 INFO  [main]: Parse input arguments
+2023-03-11 21:06:42 DEBUG [main]: Declared fields from class was taken
+2023-03-11 21:06:42 INFO  [main]: class Commands.Print created
+2023-03-11 21:06:42 INFO  [main]: Run class Commands.Print
+2023-03-11 21:06:42 WARN  [main]: Nothing to print
