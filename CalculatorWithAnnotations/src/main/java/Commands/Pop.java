@@ -12,7 +12,7 @@ public class Pop implements Command {
     @Override
     public void run() {
         if (stack.size() < 1) {
-            System.out.println("Not enough arguments for pop");
+            logger.warn("Not enough arguments for pop");
         } else {
             stack.pop();
         }

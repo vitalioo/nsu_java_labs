@@ -12,7 +12,7 @@ public class Print implements Command {
     @Override
     public void run() {
         if (stack.size() == 0) {
-            System.out.println("Nothing to print");
+            logger.warn("Nothing to print");
         } else {
             System.out.println(stack.peek());
         }

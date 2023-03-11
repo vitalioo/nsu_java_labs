@@ -6,6 +6,7 @@ import Annotation.Inject;
 import java.util.Map;
 
 public class Define implements Command {
+
     @Inject(arg = Context.MAP)
     Map<String, Double> hashMap;
 

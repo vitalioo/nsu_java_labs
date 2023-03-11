@@ -14,7 +14,7 @@ public class SquareRoot implements Command {
     @Override
     public void run() {
         if (stack.size() < 1) {
-            System.out.println("No arguments for square root");
+            logger.warn("No arguments for square root");
         } else {
             stack.push(sqrt(stack.pop()));
         }

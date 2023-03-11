@@ -1,6 +1,4 @@
-PUSH 10
+PUSH 36
 SQRT
-DEFINE a 5
-PUSH a
-+
+-
 PRINT

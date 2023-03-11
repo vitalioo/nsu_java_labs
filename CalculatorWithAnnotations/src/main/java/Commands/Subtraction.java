@@ -12,7 +12,7 @@ public class Subtraction implements Command {
     @Override
     public void run() {
         if (stack.size() < 2) {
-            System.out.println("Not enough arguments for -");
+            logger.warn("Not enough arguments for -");
         } else {
             stack.push(stack.pop() - stack.pop());
         }
