@@ -1,10 +1,8 @@
 import Commands.Command;
 
-import Annotation.*;
 import org.apache.log4j.Logger;
 
 import java.io.*;
-import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -27,32 +25,19 @@ public abstract class Factory {
     }
 
     public static Command createCommand(String[] arguments) {
+        if (arguments.length > 3) {
+            logger.info("Invalid input arguments");
+            return null;
+        }
+
         Command command = null;
         try {
             Class factoryClass = Class.forName(properties.getProperty(arguments[0]));
             if (factoryClass.newInstance() instanceof Command) {
-                command = (Command) factoryClass.newInstance();
-                Field[] declaredFields = factoryClass.getDeclaredFields();
-                logger.debug("Declared fields from class was taken");
-
-                Inject inject;
-                for (Field field : declaredFields) {
-                    inject = field.getDeclaredAnnotation(Inject.class);
-                    field.setAccessible(true);
-
-                    if (inject.arg() == Context.MAP) {
-                        field.set(command, map);
-
-                    } else if (inject.arg() == Context.STACK) {
-                        field.set(command, stack);
-
-                    } else if (inject.arg() == Context.ARGUMENTS) {
-                        field.set(command, arguments);
-                    }
-                }
+                command = Command.create(factoryClass, stack, map, arguments);
             }
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | NullPointerException ex) {
-            logger.error(ex);
+            logger.warn(ex);
             throw new IllegalStateException();
         }
         return command;

@@ -21,11 +21,10 @@ public class Main {
                     logger.info("Parse input arguments");
                     Command command = Factory.createCommand(line.split(" "));
                     if (command != null) {
-                        logger.info(command.getClass() + " created");
-                        logger.info("Run " + command.getClass());
+                        logger.info("Created and run " + command.getClass());
                         command.run();
                     } else {
-                        logger.error("Not existed command");
+                        logger.warn("Not existed command");
                     }
                 }
             }

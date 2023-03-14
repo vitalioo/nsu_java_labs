@@ -64,3 +64,132 @@
 2023-03-11 21:06:42 INFO  [main]: class Commands.Print created
 2023-03-11 21:06:42 INFO  [main]: Run class Commands.Print
 2023-03-11 21:06:42 WARN  [main]: Nothing to print
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Push
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.SquareRoot
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Define
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Push
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Multiplication
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Push
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Subtraction
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.SquareRoot
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.SquareRoot
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.SquareRoot
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Push
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.SquareRoot
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Pop
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Pop
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Pop
+2023-03-14 01:02:38 ERROR [main]: Not enough arguments for pop
+2023-03-14 01:02:38 INFO  [main]: Parse input arguments
+2023-03-14 01:02:38 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:38 INFO  [main]: Created and run class Commands.Print
+2023-03-14 01:02:38 WARN  [main]: Nothing to print
+2023-03-14 01:02:53 INFO  [main]: Parse input arguments
+2023-03-14 01:02:53 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:53 INFO  [main]: Created and run class Commands.Push
+2023-03-14 01:02:53 INFO  [main]: Parse input arguments
+2023-03-14 01:02:53 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:53 INFO  [main]: Created and run class Commands.SquareRoot
+2023-03-14 01:02:53 INFO  [main]: Parse input arguments
+2023-03-14 01:02:53 DEBUG [main]: Declared fields from class was taken
+2023-03-14 01:02:53 INFO  [main]: Created and run class Commands.Print
+2023-03-14 02:53:12 DEBUG [main]: Declared fields from class was taken
+2023-03-14 02:53:23 DEBUG [main]: Declared fields from class was taken
+2023-03-14 03:02:10 DEBUG [main]: Declared fields from class was taken
+2023-03-14 14:37:52 DEBUG [main]: Declared fields from class was taken
+2023-03-14 14:38:11 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:18:31 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:18:31 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:45:32 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:45:32 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:46:20 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:46:20 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:49:17 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:49:17 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:49:44 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:49:44 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:50:12 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:50:12 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:50:36 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:50:36 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:53:19 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:53:19 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:54:32 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:54:32 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:56:09 DEBUG [main]: Declared fields from class was taken
+2023-03-14 15:56:09 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:28:57 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:28:57 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:28:57 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:11 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:11 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:11 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:11 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:44 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:44 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:44 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:29:44 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:47:50 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:47:50 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:51:07 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:51:07 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:51:08 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:51:23 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:51:23 DEBUG [main]: Declared fields from class was taken
+2023-03-14 19:51:23 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:09:57 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:09:57 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:09:57 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:09:57 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:27:50 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:27:50 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:27:50 DEBUG [main]: Declared fields from class was taken
+2023-03-14 21:27:50 DEBUG [main]: Declared fields from class was taken
+2023-03-14 22:28:15 INFO  [main]: Parse input arguments
+2023-03-14 22:28:15 DEBUG [main]: Declared fields from class was taken
+2023-03-14 22:28:15 INFO  [main]: Created and run class Commands.Push
+2023-03-14 22:28:15 INFO  [main]: Parse input arguments
+2023-03-14 22:28:15 DEBUG [main]: Declared fields from class was taken
+2023-03-14 22:28:15 INFO  [main]: Created and run class Commands.SquareRoot
+2023-03-14 22:28:15 INFO  [main]: Parse input arguments
+2023-03-14 22:28:15 DEBUG [main]: Declared fields from class was taken
+2023-03-14 22:28:15 INFO  [main]: Created and run class Commands.Push
+2023-03-14 22:28:15 INFO  [main]: Parse input arguments
+2023-03-14 22:28:15 DEBUG [main]: Declared fields from class was taken
+2023-03-14 22:28:15 INFO  [main]: Created and run class Commands.Addition
+2023-03-14 22:28:15 INFO  [main]: Parse input arguments
+2023-03-14 22:28:15 DEBUG [main]: Declared fields from class was taken
+2023-03-14 22:28:15 INFO  [main]: Created and run class Commands.Print
+2023-03-14 22:28:15 INFO  [main]: Parse input arguments
+2023-03-14 22:28:15 DEBUG [main]: Declared fields from class was taken
+2023-03-14 22:28:15 INFO  [main]: Created and run class Commands.Pop
