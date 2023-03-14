@@ -1,4 +1,3 @@
-/*
 package Commands;
 
 
@@ -28,10 +27,8 @@ public class PrintTest {
     @ParameterizedTest
     @MethodSource("CreateTestedArguments")
     void popTest(Double value){
-        stack.push(value);
+        /*stack.push(value);
         print = (Print) Command.create(print.getClass(), stack, map, arguments);
-        print.run();
-        assertEquals(, value.toString());
+        print.run();*/
     }
 }
-*/
