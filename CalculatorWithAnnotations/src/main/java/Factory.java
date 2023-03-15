@@ -3,6 +3,7 @@ import Commands.Command;
 import org.apache.log4j.Logger;
 
 import java.io.*;
+import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -33,12 +34,14 @@ public abstract class Factory {
         Command command = null;
         try {
             Class factoryClass = Class.forName(properties.getProperty(arguments[0]));
-            if (factoryClass.newInstance() instanceof Command) {
+            if (factoryClass.getDeclaredConstructor().newInstance() instanceof Command) {
                 command = Command.create(factoryClass, stack, map, arguments);
             }
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | NullPointerException ex) {
             logger.warn(ex);
             throw new IllegalStateException();
+        } catch (InvocationTargetException | NoSuchMethodException ex) {
+            throw new RuntimeException(ex);
         }
         return command;
     }

@@ -5,6 +5,7 @@ import Annotation.Inject;
 import org.apache.log4j.Logger;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 import java.util.Stack;
 
@@ -17,7 +18,7 @@ public interface Command {
                           Stack<Double> stack, Map<String, Double> map, String[] arguments) {
         Command command;
         try {
-            command = commandClass.newInstance();
+            command = commandClass.getDeclaredConstructor().newInstance();
             Field[] declaredFields = commandClass.getDeclaredFields();
             logger.debug("Declared fields from class was taken");
 
@@ -37,8 +38,11 @@ public interface Command {
                 }
             }
         } catch (InstantiationException | IllegalAccessException ex) {
-            logger.warn("ex");
+            logger.warn(ex);
             throw new IllegalStateException();
+        } catch (InvocationTargetException | NoSuchMethodException ex) {
+            logger.warn(ex);
+            throw new RuntimeException(ex);
         }
 
         return command;
