@@ -1,5 +1,5 @@
-import Commands.Command;
-import Commands.Multiplication;
+package Commands;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
