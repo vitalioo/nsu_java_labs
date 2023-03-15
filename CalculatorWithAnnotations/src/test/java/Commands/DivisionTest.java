@@ -10,23 +10,26 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.stream.Stream;
 
-public class DefineTest {
-    private Define define = new Define();
+public class DivisionTest {
+    private Division division = new Division();
+
     private final Stack<Double> stack = new Stack<>();
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
     private static Stream<Arguments> CreateTestedArguments() {
-        return Stream.of(Arguments.of(("DEFINE a 5")),
-                Arguments.of(("DEFINE b 10")));
+        return Stream.of(Arguments.of(5.0, 1.0),
+                Arguments.of(1000000.0, 2.0),
+                Arguments.of(10.0, -10.0));
     }
 
     @ParameterizedTest
     @MethodSource("CreateTestedArguments")
-    void defineTest(String line) {
-        arguments = line.split(" ");
-        define = (Define) Command.create(define.getClass(), stack, map, arguments);
-        define.run();
-        Assertions.assertEquals(map.get(arguments[1]), Double.valueOf(arguments[2]));
+    void divisionTest(Double dividend, Double divider) {
+        stack.push(divider);
+        stack.push(dividend);
+        division = (Division) Command.create(division.getClass(), stack, map, arguments);
+        division.run();
+        Assertions.assertEquals(stack.pop(), dividend / divider);
     }
 }

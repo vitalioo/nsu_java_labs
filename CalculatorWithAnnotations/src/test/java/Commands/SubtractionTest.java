@@ -10,23 +10,27 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.stream.Stream;
 
-public class DefineTest {
-    private Define define = new Define();
+public class SubtractionTest {
+    private Subtraction subtraction = new Subtraction();
     private final Stack<Double> stack = new Stack<>();
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
     private static Stream<Arguments> CreateTestedArguments() {
-        return Stream.of(Arguments.of(("DEFINE a 5")),
-                Arguments.of(("DEFINE b 10")));
+        return Stream.of(Arguments.of(10.0, -10.0),
+                Arguments.of(1001.0, 1001.0),
+                Arguments.of(Double.MAX_VALUE, Double.MAX_VALUE),
+                Arguments.of(0.0, -0.0));
     }
 
     @ParameterizedTest
     @MethodSource("CreateTestedArguments")
-    void defineTest(String line) {
-        arguments = line.split(" ");
-        define = (Define) Command.create(define.getClass(), stack, map, arguments);
-        define.run();
-        Assertions.assertEquals(map.get(arguments[1]), Double.valueOf(arguments[2]));
+    void additionTest(Double minuend, Double subtrahend) {
+        stack.push(subtrahend);
+        stack.push(minuend);
+        subtraction = (Subtraction) Command.create(subtraction.getClass(), stack, map, arguments);
+        subtraction.run();
+        Assertions.assertEquals(stack.pop(), minuend - subtrahend);
     }
+
 }
