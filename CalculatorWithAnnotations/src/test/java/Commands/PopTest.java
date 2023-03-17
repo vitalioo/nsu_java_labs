@@ -16,7 +16,7 @@ public class PopTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    private static Stream<Arguments> CreateTestedArguments() {
+    private static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of(10.0, 5.0),
                 Arguments.of(Double.MAX_VALUE, 0.0),
                 Arguments.of(Double.MIN_VALUE, Double.MAX_VALUE),
@@ -24,7 +24,7 @@ public class PopTest {
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void popTest(Double firstValue, Double secondValue) {
         stack.push(firstValue);
         stack.push(secondValue);

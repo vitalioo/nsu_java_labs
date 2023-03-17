@@ -18,7 +18,7 @@ public class SquareRootTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    public static Stream<Arguments> CreateTestedArguments() {
+    public static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of(0.0),
                 Arguments.of(-0.0),
                 Arguments.of(1.0),
@@ -26,7 +26,7 @@ public class SquareRootTest {
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void pushTest(Double argument) {
         stack.push(argument);
         sqrt = (SquareRoot) Command.create(sqrt.getClass(), stack, map, arguments);

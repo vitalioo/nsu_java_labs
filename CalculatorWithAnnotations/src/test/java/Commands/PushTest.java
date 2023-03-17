@@ -16,14 +16,14 @@ public class PushTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    public static Stream<Arguments> CreateTestedArguments() {
+    public static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of("PUSH 10"),
                 Arguments.of("PUSH 5"),
                 Arguments.of("PUSH -000"));
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void pushTest(String line) {
         arguments = line.split(" ");
         push = (Push) Command.create(push.getClass(), stack, map, arguments);

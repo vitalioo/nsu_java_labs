@@ -17,14 +17,14 @@ public class DivisionTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    private static Stream<Arguments> CreateTestedArguments() {
+    private static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of(5.0, 1.0),
                 Arguments.of(1000000.0, 2.0),
                 Arguments.of(10.0, -10.0));
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void divisionTest(Double dividend, Double divider) {
         stack.push(divider);
         stack.push(dividend);

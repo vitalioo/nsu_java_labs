@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public class FactoryTest {
     private String[] arguments;
 
-    private static Stream<Arguments> CreateTestedArguments() {
+    private static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of("DEFINE a 5", Define.class),
                 Arguments.of("PUSH 20", Push.class),
                 Arguments.of("-", Subtraction.class),
@@ -18,7 +18,7 @@ public class FactoryTest {
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void factoryTest(String line, Class<? extends Command> commandClass) {
         arguments = line.split(" ");
         Command command = Factory.createCommand(arguments);

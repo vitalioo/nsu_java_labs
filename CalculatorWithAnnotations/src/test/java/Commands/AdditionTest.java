@@ -16,7 +16,7 @@ class AdditionTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    private static Stream<Arguments> CreateTestedArguments() {
+    private static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of(5.0, 6.0),
                 Arguments.of(-1001.0, 1001.0),
                 Arguments.of(Double.MAX_VALUE, Double.MIN_VALUE),
@@ -24,7 +24,7 @@ class AdditionTest {
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void additionTest(Double firstTerm, Double secondTerm) {
         stack.push(firstTerm);
         stack.push(secondTerm);

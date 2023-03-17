@@ -16,13 +16,13 @@ public class DefineTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    private static Stream<Arguments> CreateTestedArguments() {
+    private static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of(("DEFINE a 5")),
                 Arguments.of(("DEFINE b 10")));
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void defineTest(String line) {
         arguments = line.split(" ");
         define = (Define) Command.create(define.getClass(), stack, map, arguments);

@@ -16,7 +16,7 @@ public class MultiplicationTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    private static Stream<Arguments> CreateTestedArguments() {
+    private static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of(5.0, 5.0),
                 Arguments.of(0.0, 1.0),
                 Arguments.of(Double.MAX_VALUE, 0.0),
@@ -24,7 +24,7 @@ public class MultiplicationTest {
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void multiplicationTest(Double firstMultiplier, Double secondMultiplier) {
         stack.push(firstMultiplier);
         stack.push(secondMultiplier);

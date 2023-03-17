@@ -18,14 +18,14 @@ public class PrintTest {
     private final Map<String, Double> map = new HashMap<>();
     private String[] arguments;
 
-    private static Stream<Arguments> CreateTestedArguments() {
+    private static Stream<Arguments> createTestedArguments() {
         return Stream.of(Arguments.of(10.0),
                 Arguments.of(Double.MAX_VALUE),
                 Arguments.of(Double.MIN_VALUE));
     }
 
     @ParameterizedTest
-    @MethodSource("CreateTestedArguments")
+    @MethodSource("createTestedArguments")
     void printTest(Double argument) {
         stack.push(argument);
         print = (Print) Command.create(print.getClass(), stack, map, arguments);

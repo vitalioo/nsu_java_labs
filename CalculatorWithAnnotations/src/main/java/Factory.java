@@ -27,7 +27,7 @@ public abstract class Factory {
 
     public static Command createCommand(String[] arguments) {
         if (arguments.length > 3) {
-            logger.info("Invalid input arguments");
+            logger.warn("Invalid input arguments");
             return null;
         }
 
